@@ -17,7 +17,8 @@
         android:id="@+id/btnDialog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="dialog"
+        android:backgroundTint="@color/button"
+        android:text="@string/dialog_button"
         android:layout_margin="32dp"
         />
 
@@ -25,7 +26,8 @@
         android:id="@+id/btnDialogCustom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="dialog custom"
+        android:text="@string/dialog_custom_button"
+        android:backgroundTint="@color/button"
         android:layout_marginHorizontal="32dp"
         android:layout_marginVertical="120dp"/>
 

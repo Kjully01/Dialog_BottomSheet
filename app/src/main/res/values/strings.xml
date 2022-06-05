@@ -6,4 +6,11 @@
     <string name="confirm">Ok</string>
     <string name="title">Code Like a Girl</string>
     <string name="description">O nosso propósito é promover mais mulheres na tecnologia!</string>
+    <string name="dialog_button">dialog</string>
+    <string name="dialog_custom_button">dialog custom</string>
+    <string name="edit">Edit</string>
+    <string name="copy">Copy</string>
+    <string name="cut">Cut</string>
+    <string name="move">Move</string>
+    <string name="delete">Delete</string>
 </resources>

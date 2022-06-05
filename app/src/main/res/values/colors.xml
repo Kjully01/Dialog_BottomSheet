@@ -10,4 +10,5 @@
 
     <color name="dialog_custom">#511497</color>
     <color name="dialog_custom_desc">#612E9C</color>
+    <color name="button">#3A006D</color>
 </resources>

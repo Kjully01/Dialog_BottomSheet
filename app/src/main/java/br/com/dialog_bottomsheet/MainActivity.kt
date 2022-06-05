@@ -29,12 +29,11 @@ class MainActivity : AppCompatActivity() {
         binding?.btnDialogCustom?.setOnClickListener{
             dialogCustom()
         }
-
     }
 
     private fun dialog() {
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
-        builder.setTitle("Alert")
+        builder.setTitle("Alerta")
         builder.setMessage("Deseja excluir registro?")
         builder.setPositiveButton("Sim", object : DialogInterface.OnClickListener {
             override fun onClick(p0: DialogInterface?, p1: Int) {
