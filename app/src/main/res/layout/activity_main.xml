@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <include
+        android:id="@id/bottomSheet"
+        layout="@layout/bottom_sheet"
+        android:visibility="visible"
+        />
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog"
+        android:layout_margin="32dp"
+        />
+
+    <Button
+        android:id="@+id/btnDialogCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dialog custom"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="120dp"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
