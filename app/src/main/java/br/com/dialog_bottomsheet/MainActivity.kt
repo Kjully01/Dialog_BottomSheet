@@ -1,6 +1,8 @@
 package br.com.dialog_bottomsheet
 
 import android.content.DialogInterface
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -63,6 +65,8 @@ class MainActivity : AppCompatActivity() {
         val builder = AlertDialog.Builder(this)
         builder.setView(view)
         val alert = builder.create()
+        alert.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
 
         view.findViewById<Button>(R.id.btn_dismiss).setOnClickListener {
             alert.dismiss()
